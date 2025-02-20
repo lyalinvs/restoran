@@ -1,0 +1,62 @@
+@use "sass:math";
+// Обнуление стилей
+@import "./reset/_reset";
+
+// Импорт google шрифтов
+@import "./app/_fontsimport";
+
+// импорт функций
+/* 
+смотреть инструкцию в файле
+scss/functions/_rem.scss
+*/
+@import "./functions/_rem";
+/* 
+смотреть инструкцию в файле
+scss/functions/_adaptiveValues.scss
+*/
+//@import "./functions/_adaptiveValues";
+
+// импорт миксинов
+@import "./mixins/_breakpoints";
+
+// Шрифт по умолчанию
+$fontFamily: "Tinos";
+$fontSize: rem(16); //rem - это функция переводит из px в rem
+
+// Основные цвета
+$colorFont: #656363; // Цвет шрифта по умолчанию
+$colorBg: #E5E5E5; // Цвет background по умолчанию
+
+// Минимальная ширина страницы
+$minWidth: 320;
+// Ширина полотна (макета)
+//$maxWidth: 1920;
+// Ширина ограничивающего контейнера (0 - нет ограничений)
+$maxWidthContainer: 1108;
+// Общий отступ у контейнера (отступ безопасности)
+// (30 = 15px слева и справа, 0 - нет ограничений)
+$containerPadding: 30;
+// Ширина срабатывания первого брейкпоинта
+//$containerWidth: $maxWidthContainer + $containerPadding;
+
+
+// Подключение базовых стилей, шаблонов, вспомогательные классы
+@import "./app/_base";
+
+// Подключение стилей общих элементов проекта
+@import "./app/_common";
+
+// Подключение стилей отдельных блоков
+// header
+@import "./app/_header";
+// Подключение основного блока
+// карточки
+@import "./app/card";
+// main
+@import "./app/_main";
+// footer
+//@import "./app/_footer";
+
+// Подключение брейкпоинтов
+@import "./app/_breakpoint";

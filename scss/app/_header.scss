@@ -1,0 +1,149 @@
+.header {
+	height: 100vh;
+	background-image: url("../img/hero-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	&__container {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		padding-top: rem(50);
+		&--light{
+			color: #fff;
+		}
+	}
+		
+	&__menu {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		margin-left: auto;
+	}
+	
+	&__card {
+		position: relative;
+		padding-left: rem(30);
+		padding-right: rem(20);
+		border-right: 1px solid #fff;
+		height: rem(51);
+		a{
+			position: absolute;
+			top: rem(19);
+    		right: rem(20);
+		}
+	}
+	
+	&__phone {
+		font-size: rem(18);
+		padding-left: rem(34);
+		padding-right: rem(49);
+	}
+	
+	&__phone-elem {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-column-gap: rem(8);
+		   -moz-column-gap: rem(8);
+		        column-gap: rem(8);
+	}
+	
+}
+
+.menu-nav {
+
+	&__list {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-column-gap: rem(23);
+		   -moz-column-gap: rem(23);
+		        column-gap: rem(23);
+	}
+
+	&__link {
+		font-size: rem(14);
+		-webkit-transition: color .3s ease-in-out 0s;
+		-o-transition: color .3s ease-in-out 0s;
+		transition: color .3s ease-in-out 0s;
+		&--light{
+			color: #fff;
+		}
+		&:hover{
+			color:#cf5d00;
+		}
+	}
+	
+}
+
+.icon-menu{
+	display: none;
+}
+
+.hero{
+	&__contant{
+		padding-top: rem(211);
+		width: rem(490);
+		text-align: center;
+	}
+
+	&__title{
+		font-size: rem(80);
+		&--color{
+			color: #D67E35;
+		}
+	}
+	&__subtitle{
+		font-size: rem(50);
+		&--color{
+			color: #D67E35;
+		}
+	}
+	&__desc{
+		font-size: rem(18);
+		color: #fff;		
+	}
+	&__elem-desc{
+		
+		padding-top: rem(13);
+		padding-bottom: rem(26);
+		span{
+			position: relative;
+			z-index: 1;
+			&:after,
+			&:before{
+				position: absolute;
+				content: '';
+				top: rem(11);
+				height: rem(2);
+				width: rem(61);
+				background-color: #C4C4C4;
+			}
+			&:after{
+				left: rem(-70);
+			}
+			&:before{
+				right: rem(-70);
+			}
+		}
+	}
+}
+.btn{
+	background-color: #FF7400;
+	color: #fff;
+	font-size: rem(14);
+	padding: rem(14) rem(18);
+	-webkit-transition: background-color .3s ease-in-out 0s;
+	-o-transition: background-color .3s ease-in-out 0s;
+	transition: background-color .3s ease-in-out 0s;
+	&:hover{
+		background-color: #cf5d00;
+	}
+}

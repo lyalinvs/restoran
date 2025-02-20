@@ -1,0 +1,74 @@
+//@import url('https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.tinos-regular {
+	font-family: "Tinos", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+  
+.tinos-bold {
+	font-family: "Tinos", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+  
+.tinos-regular-italic {
+	font-family: "Tinos", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+  
+.tinos-bold-italic {
+	font-family: "Tinos", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+  
+.open-sans-regular {
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "wdth" 100;
+}
+
+
+.open-sans-semi-bold {
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+  		"wdth" 100;
+}
+
+
+.open-sans-bold {
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+  		"wdth" 100;
+}
+
+
+.open-sans-italic {
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: normal;
+	font-style: italic;
+	font-variation-settings:
+	  "wdth" 100;
+  }
+
+
+.cookie-regular {
+	font-family: "Cookie", serif;
+	font-weight: 400;
+	font-style: normal;
+  }
