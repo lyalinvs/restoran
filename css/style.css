@@ -702,17 +702,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   border-radius: 50%;
 }
 .menufood__column .card-img img {
   height: 100%;
   width: auto;
 }
+.menufood__column .card__price-block {
+  position: relative;
+}
 .menufood__column .card-price {
   position: absolute;
-  bottom: 13.125rem;
-  right: 3.75rem;
+  bottom: 0;
+  right: 0;
   width: 6.25rem;
   height: 6.25rem;
   font-size: 1.875rem;
@@ -855,12 +857,6 @@ body {
   object-fit: fill;
 }
 
-@media (min-width: 320px) {
-  .menufood__column .card-price {
-    bottom: 15.625rem;
-    right: 1.5625rem;
-  }
-}
 @media (min-width: 768px) {
   .padding-top-30 {
     padding-top: 1.875rem;

@@ -15,12 +15,14 @@ $(document).ready(function() {
 		$('.hero__title').html('В наш ресторан');
 		$('.hero__button').html('МЕНЮ');
 		$('.card-food__text').html('Гамбургер мини 220 ₽');
+		$('.card-price').html('$42');
 	  }
 	  else{
 		$('.hero__subtitle').html('Добро пожаловать в');
 		$('.hero__title').html('Наш ресторан');
 		$('.hero__button').html('VIEW MENU');
 		$('.card-food__text').html('Гамбургер мини --------------------- 220 ₽');
+		$('.card-price').html('420');
 	  }
 }
 checkWidth(); // проверит при загрузке страницы
