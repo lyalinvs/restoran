@@ -1,12 +1,3 @@
-@include media-breakpoint-min-xsm{
-	.menufood__column{
-		.card-price{
-			//bottom: rem(250);
-			//right: rem(25);
-		}
-	}
-}
-
 @include media-breakpoint-min-md{
 	.padding-top-30{
 		padding-top: rem(30);
